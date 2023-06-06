@@ -21,3 +21,8 @@ mongoose.connect(process.env.MONGODB_URL,{
 .catch((err)=>{
     console.log(err)
 })
+
+
+
+
+// nodemon --experimental-modules --es-module-specifier-resolution=
